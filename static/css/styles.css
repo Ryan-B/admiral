@@ -1,0 +1,59 @@
+@media screen and (min-width: 0px){
+    h1{
+        color: red;
+    }
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 481px){
+    h1{
+        color: green;
+    }
+
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    *
+    {
+        margin: 0;
+    }
+    h1{
+        color: yellow;
+    }
+
+    body{
+        background-color: white;
+        background-image: url("/img/woodfloor1.jpg");
+    }
+    #logo_div
+    {
+        width: 50%;
+        margin: auto;
+        margin-top: 7%;
+        display: block;
+    }
+    #logo_img
+    {
+        width: 100%;
+        opacity: .7;
+    }
+    #left_ul
+    {
+        width: 33%;
+        display: inline-block;
+        margin-top: 10%;
+    }
+    .left_li
+    {
+       
+        font-size: 3em;
+        color: white;
+        display: block;
+        margin: 3%;
+    }
+}
