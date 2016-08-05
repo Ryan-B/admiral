@@ -14,37 +14,51 @@
     }
     #logo_div
     {
-        width: 282px;
-        margin-left: 0px;
-        margin-top: 38px;
+        width: 382px;
+        margin: auto;
+        margin-top: 36px;
         display: block;
     }
     #logo_img
     {
-        width: 282px;
+        width: 382px;
         opacity: .8;
+    }
+    #menu_stack_div
+    {
+        width: 15%;
+        margin: auto;
+        margin-top: 3%;
+    }
+    #menu_stack
+    {
+        visibility: visible;
+        width: 100%;
+        
     }
     #right_ul
     {
-        width: 55%;
+        width: 100%;
         display: inline-block;
         float: right;
         margin-top: 16%;
-        margin-bottom: 250px;
+        margin-bottom: 450px;
+       
     }
     .right_li
     {
        
-        font-size: 2em;
+        font-size: 2.5em;
         color: white;
         display: block;
         margin: 3%;
-
-        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px gold;
+        opacity: .9;
+        text-align: center;
     }
     .right_li:hover
     {
-        color: gold;
+        color: black;
     }
 }
 
@@ -73,21 +87,30 @@
         width: 532px;
         opacity: .8;
     }
+    #menu_stack
+    {
+        visibility: hidden;
+        height: 0;
+        
+    }
      #right_ul
     {
         width: 50%;
         display: inline-block;
         float: left;
         margin-top: 3%;
+        margin-bottom: 250px;
+        visibility: visible;
     }
     .right_li
     {
        
-        font-size: 3em;
+        font-size: 2.5em;
         color: white;
         display: block;
         margin: 1.5%;
         text-shadow: 1px 1px 1px black;
+        text-align: left;
     }
     .right_li:hover
     {
