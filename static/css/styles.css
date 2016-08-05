@@ -52,13 +52,14 @@
         color: white;
         display: block;
         margin: 3%;
-        text-shadow: 1px 1px 1px gold;
+        text-shadow: 1px 1px 1px black;
         opacity: .9;
         text-align: center;
     }
     .right_li:hover
     {
         color: black;
+        text-shadow: 1px 1px 1px gold;
     }
 }
 
@@ -115,6 +116,7 @@
     .right_li:hover
     {
         color: gold;
+        text-shadow: 1px 1px 1px black;
     }
 }
 
