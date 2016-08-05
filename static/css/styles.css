@@ -1,9 +1,48 @@
 @media screen and (min-width: 0px){
+    *
+    {
+        margin: 0;
+    }
     h1{
         color: red;
     }
     body{
+        width: 100%;
         background-color: white;
+        background-image: url("/img/woodfloor2.jpg");
+    }
+    #logo_div
+    {
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 38px;
+        display: block;
+    }
+    #logo_img
+    {
+        width: 282px;
+        opacity: .8;
+    }
+    #right_ul
+    {
+        width: 55%;
+        display: inline-block;
+        float: right;
+        margin-top: 16%;
+    }
+    .right_li
+    {
+       
+        font-size: 2em;
+        color: white;
+        display: block;
+        margin: 3%;
+
+        text-shadow: 1px 1px 1px black;
+    }
+    .right_li:hover
+    {
+        color: gold;
     }
 }
 
@@ -14,6 +53,43 @@
 
     body{
         background-color: white;
+    }
+    body{
+        width: 100%;
+        background-color: white;
+        background-image: url("/img/woodfloor1.jpg");
+    }
+    #logo_div
+    {
+        width: 532px;
+        margin-left: 226px;
+        margin-top: 65px;
+        display: block;
+    }
+    #logo_img
+    {
+        width: 532px;
+        opacity: .8;
+    }
+     #right_ul
+    {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        margin-top: 3%;
+    }
+    .right_li
+    {
+       
+        font-size: 3em;
+        color: white;
+        display: block;
+        margin: 1.5%;
+        text-shadow: 1px 1px 1px black;
+    }
+    .right_li:hover
+    {
+        color: gold;
     }
 }
 
@@ -27,33 +103,40 @@
     }
 
     body{
+        width: 100%;
         background-color: white;
         background-image: url("/img/woodfloor1.jpg");
     }
     #logo_div
     {
-        width: 50%;
-        margin: auto;
-        margin-top: 7%;
+        width: 532px;
+        margin-left: 226px;
+        margin-top: 65px;
         display: block;
     }
     #logo_img
     {
-        width: 100%;
-        opacity: .7;
+        width: 532px;
+        opacity: .8;
     }
-    #left_ul
+    #right_ul
     {
         width: 33%;
         display: inline-block;
-        margin-top: 10%;
+        float: right;
+        margin-top: 3%;
     }
-    .left_li
+    .right_li
     {
        
         font-size: 3em;
         color: white;
         display: block;
         margin: 3%;
+        text-shadow: 1px 1px 1px black;
+    }
+    .right_li:hover
+    {
+        color: gold;
     }
 }
