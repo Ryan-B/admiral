@@ -14,14 +14,14 @@
     }
     #logo_div
     {
-        width: 382px;
-        margin: auto;
-        margin-top: 36px;
+        width: 90%;
         display: block;
+        margin: auto;
+        margin-top: 10%;
     }
     #logo_img
     {
-        width: 382px;
+        width: 100%;
         opacity: .8;
     }
     #menu_stack_div
