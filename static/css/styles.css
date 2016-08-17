@@ -82,47 +82,47 @@
     {
         background-image: url("img/world44.jpg");
         width: 100%;
-        height: 963px;
+        height: 500px;
     }
     #vogelh2
     {
-        font-size: 50px;
+        font-size: 52px;
         color: gold;
         text-align: center;
         text-shadow: 3px 3px 3px purple;
-        padding-top: 5%;
+        padding-top: 1%;
     }
     #vogelh24
     {
-        font-size: 50px;
+        font-size: 52px;
         color: limegreen;
         text-align: center;
         text-shadow: 3px 3px 3px darkblue;
-        padding-top: 5%;
+        padding-top: 1%;
     }
     #vogelh3
     {
-        font-size: 40px;
-        color: gold;
+        font-size: 48px;
+        color: purple;
         text-align: center;
-        margin-top: 250px;
-        text-shadow: 4px 4px 4px black;
+        margin-top: 120px;
+        text-shadow: 2px 2px 2px gold;
     }
     #vogelh33
     {
-        font-size: 40px;
-        color: limegreen;
+        font-size: 48px;
+        color: darkblue;
         text-align: center;
-        margin-top: 250px;
-        text-shadow: 4px 4px 4px black;
+        margin-top: 120px;
+        text-shadow: 2px 2px 2px limegreen;
     }
     #vogelh35
     {
-        font-size: 40px;
+        font-size: 48px;
         color: gold;
         text-align: center;
-        margin-top: 350px;
-        text-shadow: 4px 4px 4px black;
+        margin-top: 120px;
+        text-shadow: 2px 2px 2px black;
     }
     #vogel_motto
     {
@@ -147,13 +147,13 @@
     #vogel_email
     {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     #vogel_email_a
     {
         color: snow;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 22px;
         text-shadow: 1px 1px 1px black;
     }
     #vogel_email_a:hover
@@ -165,26 +165,26 @@
     {
         background-image: url("img/mtrainier.jpg");
         width: 100%;
-        height: 963px;
+        height: 500px;
         
     }
     #water
     {
         background-image: url("img/water.jpg");
         width: 100%;
-        height: 963px;
+        height: 500px;
         
     }
     #war
     {
         background-image: url("img/war.jpg");
         width: 100%;
-        height: 963px;
+        height: 500px;
         
     }
     #black_bottom_line
     {
-        border: 50px solid black;
+        border: 10px solid black;
     }
     #gif_div
     {
