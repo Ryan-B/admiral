@@ -9,7 +9,7 @@
 	<!-- for Chrome on Android, multi-resolution icon of 196x196 -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<link rel="shortcut icon" sizes="196x196" href="icon-196.png">
-	<title>Admiral Construction</title>
+	<title>Lena and Ola!</title>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFbAShs-Vid1qTYfGxXzJgMJAVHM8vMs"></script>
 	<script type="text/javascript" src="/js/lib/angular.js"></script>
 	<script type="text/javascript" src="/js/lib/angular-routes.js"></script>
@@ -21,21 +21,21 @@
 	<script type="text/javascript" src="/js/lib/jquery.timer.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
 	
-	
+	<link href='https://fonts.googleapis.com/css?family=Radley:400,400italic' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'> -->
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'> -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'> -->
 </head>
 <body>
+	<div id="main_section">
 
-	<div id="logo_div">
-		<img id="logo_img" src="/img/logo1.png">
-	</div>
-	<div id="right_section">
-		<ul id="right_ul">
-			<li class ="right_li">Wood Floors</li>
-			<li class ="right_li">Bathrooms</li>
-			<li class ="right_li">Basements</li>
-			<li class ="right_li">Outdoor Decks</li>
-		</ul>
+
+		<div id="main_div">
+			<div ng-view id="stats"></div>
+		</div>
+		
 	</div>
 </body>
 </html>
-

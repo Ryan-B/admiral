@@ -1,5 +1,36 @@
 app.controller('MainController', function(){
 	console.log("MainController");
+
+	socket = io.connect();
+		var name;
+		while(!name || name.length < 1){
+			name = prompt("Please enter your name");
+		}
+		socket.emit('newUser', {name: name});
+		socket.on('updateUserList', function(users){
+			console.log(users);
+			$('div.users').html('');
+			$(users).each(function(index, user){
+				$('div.users').append("<h4>"+user.name+"</h4>")
+				console.log(users[index]);
+			})
+		})
+		socket.on('updateMessageList', function(messages){
+			$('div.messages').html('');
+			$(messages).each(function(index, message){
+				$('div.messages').prepend("<p>"+message+"</p>");
+				
+			})
+		})
+		$(document).on('submit', 'form', function(){
+			socket.emit('newMessage', {
+				message: $('#message').val(), name: name
+			})
+			message: $('#message').val("");
+			
+			return false;
+		})
+		
 })
 
 app.controller('MapsController', function(){
