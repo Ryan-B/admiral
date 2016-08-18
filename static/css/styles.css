@@ -107,14 +107,22 @@
         text-align: center;
         margin-top: 120px;
         text-shadow: 2px 2px 2px gold;
+       /* background-color: white;
+        width: 480px;
+        opacity: .66;
+        margin: auto;*/
     }
     #vogelh33
     {
         font-size: 48px;
         color: darkblue;
-        text-align: center;
         margin-top: 120px;
+        text-align: center;
         text-shadow: 2px 2px 2px limegreen;
+       /* background-color: white;
+        width: 360px;
+        opacity: .66;
+        margin: auto;*/
     }
     #vogelh35
     {
@@ -192,7 +200,7 @@
     }
     #black_bottom_line
     {
-        border: 30px solid black;
+        border: 40px solid black;
     }
     #gif_div
     {
@@ -201,6 +209,7 @@
        
         margin-top: 100px;
     }
+
 }
 
 @media screen and (min-width: 481px){
@@ -380,6 +389,34 @@
        
         margin-top: 100px;
     }
+    /*#opac_div
+    {
+        width: 38%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }
+    #opac_div2
+    {
+        width: 26%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }
+    #opac_div3
+    {
+        width: 27%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }
+    #opac_div4
+    {
+        width: 25%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }*/
 }
 
 @media screen and (min-width: 1024px){
@@ -447,7 +484,7 @@
         color: gold;
         text-align: center;
         text-shadow: 3px 3px 3px purple;
-        padding-top: 7%;
+        padding-top: 3%;
     }
     #vogelh24
     {
@@ -455,23 +492,23 @@
         color: limegreen;
         text-align: center;
         text-shadow: 3px 3px 3px darkblue;
-        padding-top: 7%;
+        padding-top: 3%;
     }
     #vogelh3
     {
         font-size: 80px;
-        color: gold;
+        color: purple;
         text-align: center;
-        margin-top: 350px;
-        text-shadow: 4px 4px 4px black;
+        margin-top: 520px;
+        text-shadow: 4px 4px 4px gold;
     }
     #vogelh33
     {
         font-size: 80px;
-        color: limegreen;
+        color: darkblue;
         text-align: center;
-        margin-top: 350px;
-        text-shadow: 4px 4px 4px black;
+        margin-top: 520px;
+        text-shadow: 4px 4px 4px limegreen;
     }
     #vogel_motto
     {
@@ -543,6 +580,34 @@
        
         margin-top: 100px;
     }
+    /*#opac_div
+    {
+        width: 38%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }
+    #opac_div2
+    {
+        width: 26%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }
+    #opac_div3
+    {
+        width: 27%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }
+    #opac_div4
+    {
+        width: 25%;
+        background-color: snow;
+        opacity: .66;
+        margin: auto;
+    }*/
     
     
 }
