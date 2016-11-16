@@ -1,613 +1,79 @@
 @media screen and (min-width: 0px){
-   
-    /**
+   *
+   {
+    margin: 0;
+   }
+   #header
+   {
+     width: 100%;
+     height: 200px;
+     background-color: purple;
+   }
+   #logo
+   {
+    width: 33.8%;
+    opacity: .5;
+    display: inline-block;
+   }
+   #header_ul
+   {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-top: 5%;
+   }
+    .header_li
     {
-        margin: 0;
-    }
-    h1{
-        color: red;
-    }
-    body{
-        width: 100%;
-        background-image: url("/img/woodfloor2.jpg");
-        background-repeat: no-repeat;
-        background-color: black;
-    }
-    #logo_div
-    {
-        width: 90%;
-        display: block;
-        margin: auto;
-        margin-top: 10%;
-    }
-    #logo_img
-    {
-        width: 100%;
-        opacity: .8;
-    }
-    #menu_stack_div
-    {
-        width: 15%;
-        margin: auto;
-        margin-top: 3%;
-    }
-    #menu_stack
-    {
-        visibility: visible;
-        width: 100%;
-        
-    }
-    #right_ul
-    {
-        width: 100%;
-        display: inline-block;
-        float: right;
-        margin-top: 5%;
-        margin-bottom: 350px;
-       
-    }
-    .right_li
-    {
-       
-        font-size: 1.5em;
-        color: white;
-        display: block;
-        margin: 3%;
-        text-shadow: 1px 1px 1px black;
-        opacity: .9;
-        text-align: center;
-    }
-    .right_li:hover
-    {
-        color: black;
-        text-shadow: 1px 1px 1px gold;
-    }
-    #phone_div
-    {
-        
-    }
-    #phone_p
-    {
-        font-size: 2em;
-    }*/
-      *
-    {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        font-family: 'Quicksand', sans-serif;
-
-    }
-    #world
-    {
-        background-image: url("img/world44.jpg");
-        width: 100%;
-        height: 500px;
-    }
-    #vogelh2
-    {
-        font-size: 52px;
-        color: gold;
-        text-align: center;
-        text-shadow: 3px 3px 3px purple;
-        padding-top: 1%;
-    }
-    #vogelh24
-    {
-        font-size: 52px;
-        color: limegreen;
-        text-align: center;
-        text-shadow: 3px 3px 3px darkblue;
-        padding-top: 1%;
-    }
-    #vogelh3
-    {
-        font-size: 48px;
-        color: purple;
-        text-align: center;
-        margin-top: 120px;
-        text-shadow: 2px 2px 2px gold;
-       /* background-color: white;
-        width: 480px;
-        opacity: .66;
-        margin: auto;*/
-    }
-    #vogelh33
-    {
-        font-size: 48px;
-        color: darkblue;
-        margin-top: 120px;
-        text-align: center;
-        text-shadow: 2px 2px 2px limegreen;
-       /* background-color: white;
-        width: 360px;
-        opacity: .66;
-        margin: auto;*/
-    }
-    #vogelh35
-    {
-        font-size: 52px;
-        color: red;
-        text-align: center;
-        padding-top: 1%;
-        text-shadow: 3px 3px 3px black;
-    }
-    #vogelh36
-    {
-        font-size: 48px;
-        color: black;
-        text-align: center;
-        margin-top: 110px;
-        text-shadow: 2px 2px 2px red;
-    }
-    #vogel_motto
-    {
-        font-size: 24px;
-        text-align: center;
-        color: white;
-        text-shadow: 2px 2px 2px black;
-        margin-top: 5px;
         display: inline;
-        margin: 0 1% 0 1%;
+        font-size: 24pt;
+        color: gold;
+        margin: 4%;
     }
-    #vogel_motto:hover
-    {   
-        color: mediumpurple;
-        text-shadow: 2px 2px 2px black;
-
-    }
-    #vogel_ul
+    #address_ul
     {
-        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 1%;
     }
-    #vogel_email
+    .address_li
     {
-        text-align: center;
-        margin-top: 2px;
+        display: block;
+        color: gold;
     }
-    #vogel_email_a
-    {
-        color: snow;
-        text-decoration: none;
-        font-size: 22px;
-        text-shadow: 1px 1px 1px black;
-    }
-    #vogel_email_a:hover
-    {
-        color: dodgerblue;
-        text-shadow: 1px 1px 1px black;
-    }
-    #mt_rainier
-    {
-        background-image: url("img/mtrainier.jpg");
-        width: 100%;
-        height: 500px;
-        
-    }
-    #water
-    {
-        background-image: url("img/water.jpg");
-        width: 100%;
-        height: 500px;
-        
-    }
-    #war
-    {
-        background-image: url("img/war.jpg");
-        width: 100%;
-        height: 500px;
-        
-    }
-    #black_bottom_line
-    {
-        border: 40px solid black;
-    }
-    #gif_div
-    {
-        width: 33.4%;
-        margin: auto;
-       
-        margin-top: 100px;
-    }
-
 }
 
 @media screen and (min-width: 481px){
-    /*h1{
-        color: green;
+   *
+   {
+    margin: 0;
+   }
+   #header
+   {
+     width: 100%;
+     height: 200px;
+     background-color: purple;
+   } 
+   #logo
+   {
+    width: 33.8%;
+    opacity: .5;
+   }
     }
-
-    body{
-        background-color: black;
-    }
-    body{
-        width: 100%;
-        background-image: url("/img/woodfloor1.jpg");
-    }
-    #logo_div
-    {
-        width: 532px;
-        margin-left: 226px;
-        margin-top: 65px;
-        display: block;
-    }
-    #logo_img
-    {
-        width: 532px;
-        opacity: .8;
-    }
-    #menu_stack
-    {
-        visibility: hidden;
-        height: 0;
-        
-    }
-     #right_ul
-    {
-        width: 50%;
-        display: inline-block;
-        float: left;
-        margin-top: 3%;
-        margin-bottom: 250px;
-        visibility: visible;
-    }
-    .right_li
-    {
-       
-        font-size: 2.5em;
-        color: white;
-        display: block;
-        margin: 1.5%;
-        text-shadow: 1px 1px 1px black;
-        text-align: left;
-    }
-    .right_li:hover
-    {
-        color: gold;
-        text-shadow: 1px 1px 1px black;
-    }*/
-      *
-    {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        font-family: 'Quicksand', sans-serif;
-    }
-    #world
-    {
-        background-image: url("img/world2.jpg");
-        width: 100%;
-        height: 963px;
-    }
-    #vogelh2
-    {
-        font-size: 100px;
-        color: gold;
-        text-align: center;
-        text-shadow: 3px 3px 3px purple;
-        padding-top: 5%;
-    }
-    #vogelh24
-    {
-        font-size: 100px;
-        color: limegreen;
-        text-align: center;
-        text-shadow: 5px 3px 3px darkblue;
-        padding-top: 5%;
-    }
-    #vogelh3
-    {
-        font-size: 80px;
-        color: gold;
-        text-align: center;
-        margin-top: 350px;
-        text-shadow: 4px 4px 4px black;
-    }
-    #vogelh33
-    {
-        font-size: 80px;
-        color: limegreen;
-        text-align: center;
-        margin-top: 350px;
-        text-shadow: 4px 4px 4px black;
-    }
-    #vogelh35
-    {
-        font-size: 80px;
-        color: gold;
-        text-align: center;
-        margin-top: 350px;
-        text-shadow: 4px 4px 4px black;
-    }
-    #vogel_motto
-    {
-        font-size: 50px;
-        text-align: center;
-        color: white;
-        text-shadow: 2px 2px 2px black;
-        margin-top: 5px;
-        display: inline;
-        margin: 0 3% 0 3%;
-    }
-    #vogel_motto:hover
-    {   
-        color: mediumpurple;
-        text-shadow: 2px 2px 2px black;
-
-    }
-    #vogel_ul
-    {
-        text-align: center;
-    }
-    #vogel_email
-    {
-        text-align: center;
-        margin-top: 30px;
-    }
-    #vogel_email_a
-    {
-        color: white;
-        text-decoration: none;
-        font-size: 30px;
-        text-shadow: 1px 1px 1px black;
-
-    }
-    #vogel_email_a:hover
-    {
-        color: dodgerblue;
-        text-shadow: 1px 1px 1px black;
-    }
-    #mt_rainier
-    {
-        background-image: url("img/mtrainier.jpg");
-        width: 100%;
-        height: 963px;
-        
-    }
-    #water
-    {
-        background-image: url("img/water.jpg");
-        width: 100%;
-        height: 963px;
-        
-    }
-    #war
-    {
-        background-image: url("img/war.jpg");
-        width: 100%;
-        height: 963px;
-        
-    }
-    #black_bottom_line
-    {
-        border: 30px solid black;
-    }
-    #gif_div
-    {
-        width: 33.4%;
-        margin: auto;
-       
-        margin-top: 100px;
-    }
-    /*#opac_div
-    {
-        width: 38%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }
-    #opac_div2
-    {
-        width: 26%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }
-    #opac_div3
-    {
-        width: 27%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }
-    #opac_div4
-    {
-        width: 25%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }*/
-}
 
 @media screen and (min-width: 1024px){
-   /* *
-    {
-        margin: 0;
+   *
+   {
+    margin: 0;
+   }
+   #header
+   {
+     width: 100%;
+     height: 200px;
+     background-color: purple;
+   }
+   #logo
+   {
+    width: 33.8%;
+    opacity: .5;
+   }
     }
-    h1{
-        color: yellow;
-    }
-
-    body{
-        width: 100%;
-        background-color: black;
-        background-image: url("/img/woodfloor1.jpg");
-    }
-    #logo_div
-    {
-        width: 532px;
-        margin-left: 226px;
-        margin-top: 65px;
-        display: block;
-    }
-    #logo_img
-    {
-        width: 532px;
-        opacity: .8;
-    }
-    #right_ul
-    {
-        width: 33%;
-        display: inline-block;
-        float: right;
-        margin-top: 3%;
-    }
-    .right_li
-    {
-       
-        font-size: 3em;
-        color: white;
-        display: block;
-        margin: 3%;
-        text-shadow: 1px 1px 1px black;
-    }
-    .right_li:hover
-    {
-        color: gold;
-    }*/
-        *
-    {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        font-family: 'Quicksand', sans-serif;
-    }
-    #world
-    {
-        background-image: url("img/world2.jpg");
-        width: 100%;
-        height: 963px;
-    }
-    #vogelh2
-    {
-        font-size: 100px;
-        color: gold;
-        text-align: center;
-        text-shadow: 3px 3px 3px purple;
-        padding-top: 3%;
-    }
-    #vogelh24
-    {
-        font-size: 100px;
-        color: limegreen;
-        text-align: center;
-        text-shadow: 3px 3px 3px darkblue;
-        padding-top: 3%;
-    }
-    #vogelh3
-    {
-        font-size: 80px;
-        color: purple;
-        text-align: center;
-        margin-top: 520px;
-        text-shadow: 4px 4px 4px gold;
-    }
-    #vogelh33
-    {
-        font-size: 80px;
-        color: darkblue;
-        text-align: center;
-        margin-top: 520px;
-        text-shadow: 4px 4px 4px limegreen;
-    }
-    #vogel_motto
-    {
-        font-size: 50px;
-        text-align: center;
-        color: white;
-        text-shadow: 2px 2px 2px black;
-        margin-top: 5px;
-        display: inline;
-        margin: 0 3% 0 3%;
-    }
-    #vogel_motto:hover
-    {   
-        color: mediumpurple;
-        text-shadow: 2px 2px 2px black;
-
-    }
-    #vogel_ul
-    {
-        text-align: center;
-    }
-    #vogel_email
-    {
-        text-align: center;
-        margin-top: 30px;
-    }
-    #vogel_email_a
-    {
-        color: white;
-        text-decoration: none;
-        font-size: 30px;
-        text-shadow: 1px 1px 1px black;
-
-    }
-    #vogel_email_a:hover
-    {
-        color: dodgerblue;
-        text-shadow: 1px 1px 1px black;
-    }
-    #mt_rainier
-    {
-        background-image: url("img/mtrainier.jpg");
-        width: 100%;
-        height: 963px;
-        
-    }
-    #water
-    {
-        background-image: url("img/water.jpg");
-        width: 100%;
-        height: 963px;
-        
-    }
-    #war
-    {
-        background-image: url("img/war.jpg");
-        width: 100%;
-        height: 963px;
-        
-    }
-    #black_bottom_line
-    {
-        border: 30px solid black;
-    }
-    #gif_div
-    {
-        width: 33.4%;
-        margin: auto;
-       
-        margin-top: 100px;
-    }
-    /*#opac_div
-    {
-        width: 38%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }
-    #opac_div2
-    {
-        width: 26%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }
-    #opac_div3
-    {
-        width: 27%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }
-    #opac_div4
-    {
-        width: 25%;
-        background-color: snow;
-        opacity: .66;
-        margin: auto;
-    }*/
-    
-    
-}
