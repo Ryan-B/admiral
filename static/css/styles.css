@@ -6,6 +6,96 @@
    #header
    {
      width: 100%;
+     height: 240px;
+     background-color: purple;
+   }
+   #logo
+   {
+    width: 100%;
+    opacity: .5;
+    display: inline-block;
+   }
+   #header_ul
+   {
+    display: inline-block;
+    width: 100%;
+    /*margin-top: 5%;*/
+    visibility: hidden;
+   
+    
+   }
+    .header_li
+    {
+        display: inline-block;
+        font-size: 16pt;
+        color: gold;
+    
+    }
+    #address_ul
+    {
+        display: inline-block;
+        vertical-align: top;
+        /*margin-top: 1%;*/
+    }
+    .address_li
+    {
+        display: block;
+        color: gold;
+    }
+}
+
+@media screen and (min-width: 481px){
+   *
+   {
+    margin: 0;
+   }
+   #header
+   {
+     width: 100%;
+     height: 200px;
+     background-color: purple;
+   } 
+   #logo
+   {
+    width: 33.8%;
+    opacity: .5;
+   }
+   #header_ul
+   {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-top: 5%;
+    visibility: visible;
+   }
+    .header_li
+    {
+        display: inline;
+        font-size: 24pt;
+        color: gold;
+        margin: 4%;
+    }
+    #address_ul
+    {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 1%;
+    }
+    .address_li
+    {
+        display: block;
+        color: gold;
+    }
+    }
+
+@media screen and (min-width: 1024px){
+   *
+   {
+    margin: 0;
+   }
+   #header
+   {
+     width: 100%;
      height: 200px;
      background-color: purple;
    }
@@ -13,7 +103,6 @@
    {
     width: 33.8%;
     opacity: .5;
-    display: inline-block;
    }
    #header_ul
    {
@@ -40,40 +129,4 @@
         display: block;
         color: gold;
     }
-}
-
-@media screen and (min-width: 481px){
-   *
-   {
-    margin: 0;
-   }
-   #header
-   {
-     width: 100%;
-     height: 200px;
-     background-color: purple;
-   } 
-   #logo
-   {
-    width: 33.8%;
-    opacity: .5;
-   }
-    }
-
-@media screen and (min-width: 1024px){
-   *
-   {
-    margin: 0;
-   }
-   #header
-   {
-     width: 100%;
-     height: 200px;
-     background-color: purple;
-   }
-   #logo
-   {
-    width: 33.8%;
-    opacity: .5;
-   }
     }
