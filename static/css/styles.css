@@ -18,9 +18,9 @@
    #header_ul
    {
     display: inline-block;
-    width: 100%;
+
     /*margin-top: 5%;*/
-    visibility: hidden;
+    /*visibility: hidden;*/
    
     
    }
@@ -29,18 +29,26 @@
         display: inline-block;
         font-size: 16pt;
         color: gold;
+        margin: 5px;
+        margin-bottom: 0;
     
     }
     #address_ul
     {
-        display: inline-block;
-        vertical-align: top;
+       /* display: inline-block;
+        vertical-align: top;*/
         /*margin-top: 1%;*/
     }
     .address_li
     {
         display: block;
         color: gold;
+    }
+    #phone_div
+    {
+        color: gold;
+        margin-top: 10px;
+        margin-left: 5px;
     }
 }
 
@@ -52,28 +60,29 @@
    #header
    {
      width: 100%;
-     height: 200px;
+     height: 206px;
      background-color: purple;
    } 
    #logo
    {
-    width: 33.8%;
+    width: 500px;
     opacity: .5;
    }
    #header_ul
    {
     display: inline-block;
-    vertical-align: top;
-    width: 40%;
-    margin-top: 5%;
+    width: 400px;
     visibility: visible;
+    vertical-align: top;
+    margin-top: 80px;
+   
    }
     .header_li
     {
         display: inline;
-        font-size: 24pt;
+        font-size: 20pt;
         color: gold;
-        margin: 4%;
+        margin: 1%;
     }
     #address_ul
     {
@@ -96,37 +105,58 @@
    #header
    {
      width: 100%;
-     height: 200px;
+     height: 206px;
      background-color: purple;
    }
    #logo
    {
-    width: 33.8%;
+    display: inline;
+    width: 500px;
     opacity: .5;
    }
    #header_ul
    {
     display: inline-block;
+    width: 500px;
+    visibility: visible;
     vertical-align: top;
-    width: 40%;
-    margin-top: 5%;
+    margin-top: 80px;
+   
    }
     .header_li
     {
         display: inline;
         font-size: 24pt;
         color: gold;
-        margin: 4%;
+        margin: 10px;
+       
     }
     #address_ul
     {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 1%;
+        display: inline;
+       
     }
     .address_li
     {
-        display: block;
+       
         color: gold;
     }
+    #phone_div
+    {
+       display: inline-block;
+       font-size: 14pt;
+       vertical-align: top;
+       margin-top: 25px;
+       margin-left: 10px;
     }
+    #email
+    {
+        color: gold;
+    }
+    
+    #phone
+    {
+        color: gold;
+       
+    }
+}
