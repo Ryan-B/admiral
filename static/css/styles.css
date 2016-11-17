@@ -7,7 +7,7 @@
    {
      width: 100%;
      height: 240px;
-     background-color: purple;
+     background-color: dodgerblue;
    }
    #logo
    {
@@ -23,7 +23,7 @@
     {
         display: inline-block;
         font-size: 16pt;
-        color: gold;
+        color: white;
         margin: 5px;
         margin-bottom: 0;
     
@@ -37,11 +37,11 @@
     .address_li
     {
         display: block;
-        color: gold;
+        color: white;
     }
     #phone_div
     {
-        color: gold;
+        color: white;
         margin-top: 10px;
         margin-left: 5px;
     }
@@ -56,7 +56,7 @@
    {
      width: 100%;
      height: 205px;
-     background-color: purple;
+     background-color: dodgerblue;
    } 
    #logo
    {
@@ -76,7 +76,7 @@
     {
         display: inline;
         font-size: 20pt;
-        color: gold;
+        color: white;
         margin: 1%;
     }
     #address_ul
@@ -88,7 +88,7 @@
     .address_li
     {
         display: block;
-        color: gold;
+        color: white;
     }
     }
 
@@ -101,7 +101,7 @@
    {
      width: 100%;
      height: 205px;
-     background-color: purple;
+     background-color: dodgerblue;
    }
    #logo
    {
@@ -122,7 +122,7 @@
     {
         display: inline;
         font-size: 24pt;
-        color: gold;
+        color: white;
         margin: 10px;
        
     }
@@ -134,7 +134,7 @@
     .address_li
     {
        
-        color: gold;
+        color: white;
     }
     #phone_div
     {
@@ -146,12 +146,12 @@
     }
     #email
     {
-        color: gold;
+        color: white;
     }
     
     #phone
     {
-        color: gold;      
+        color: white;      
     }
     #main_picture
     {
