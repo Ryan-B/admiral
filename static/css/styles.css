@@ -13,7 +13,7 @@
      height: 180px;
      background-color: #528B8B;
      margin: auto;
-     margin-top: 50px;
+     margin-top: 0px;
 
    }
    #title_h2
@@ -21,15 +21,13 @@
     font-family: "Inika", serif;
     color: darkblue;
     text-align: center;
-    font-size: 20pt;
+    font-size: 16pt;
     padding-top: 40px;
     text-shadow: 2px 2px dodgerblue;
    }
    #phone_img
    {
-    width: 2%;
-    
-    
+    width: 5%; 
    }
    #header_ul
    {
@@ -38,7 +36,7 @@
    .header_li
    {
    display: inline;
-   font-size: 30pt;
+   font-size: 12pt;
    color: #2B4F81;
    text-shadow: 1px 1px black;
    font-family: 'Gurajada', serif;
@@ -49,8 +47,8 @@
    }
    #email_img
    {
-    width: 2%;
-   margin-left: 50px;
+    width: 5%;
+   margin-left: 20px;
    }
    #menu_bar
    {
