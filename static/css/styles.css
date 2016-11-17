@@ -9,6 +9,89 @@
 
    #header
    {
+     width: 100%;
+     height: 180px;
+     background-color: #528B8B;
+     margin: auto;
+     margin-top: 50px;
+
+   }
+   #title_h2
+   {
+    font-family: "Inika", serif;
+    color: darkblue;
+    text-align: center;
+    font-size: 20pt;
+    padding-top: 40px;
+    text-shadow: 2px 2px dodgerblue;
+   }
+   #phone_img
+   {
+    width: 2%;
+    
+    
+   }
+   #header_ul
+   {
+   
+   }
+   .header_li
+   {
+   display: inline;
+   font-size: 30pt;
+   color: #2B4F81;
+   text-shadow: 1px 1px black;
+   font-family: 'Gurajada', serif;
+   }
+   #lic_num
+   {
+    margin: 10%;
+   }
+   #email_img
+   {
+    width: 2%;
+   margin-left: 50px;
+   }
+   #menu_bar
+   {
+    display: block;
+    background-color: silver;
+    padding: 0;
+    width: 612px;
+    margin: auto;
+    
+   
+    
+    margin-top: 40px;
+   }
+   .menu_li
+   {
+    display: inline;
+    font-size: 18pt;
+    border-right: 1px solid black;
+    padding-right: 5px;
+   }
+   #first_menu
+   {
+    margin-left: 3px;
+   }
+   #last_menu
+   {
+    border-right: none;
+   }
+   
+
+@media screen and (min-width: 481px){
+    *
+   {
+    margin: 0;
+   }
+   body{
+    background-color: black;
+   }
+
+   #header
+   {
      width: 700px;
      height: 180px;
      background-color: #528B8B;
@@ -79,81 +162,86 @@
    {
     border-right: none;
    }
-   
-
-@media screen and (min-width: 481px){
-   *
-   {
-    margin: 0;
-   }
-   #header
-   {
-    
-   } 
-  
-   #header_ul
-   {
-   
-   }
-    
-    #address_ul
-    {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 1%;
-    }
-    .address_li
-    {
-        display: block;
-        color: white;
-    }
-    }
 
 @media screen and (min-width: 1024px){
-   *
+    *
    {
     margin: 0;
    }
+   body{
+    background-color: black;
+   }
+
    #header
    {
+     width: 700px;
+     height: 180px;
+     background-color: #528B8B;
+     margin: auto;
+     margin-top: 50px;
+
+   }
+   #title_h2
+   {
+    font-family: "Inika", serif;
+    color: darkblue;
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 40px;
+    text-shadow: 2px 2px dodgerblue;
+   }
+   #phone_img
+   {
+    width: 2%;
+    
     
    }
-   
    #header_ul
    {
    
-   
    }
+   .header_li
+   {
+   display: inline;
+   font-size: 30pt;
+   color: #2B4F81;
+   text-shadow: 1px 1px black;
+   font-family: 'Gurajada', serif;
+   }
+   #lic_num
+   {
+    margin: 10%;
+   }
+   #email_img
+   {
+    width: 2%;
+   margin-left: 50px;
+   }
+   #menu_bar
+   {
+    display: block;
+    background-color: silver;
+    padding: 0;
+    width: 612px;
+    margin: auto;
     
-    #address_ul
-    {
-        display: inline;
-       
-    }
-    .address_li
-    {
-       
-        color: white;
-    }
-    #phone_div
-    {
-       display: inline-block;
-       font-size: 14pt;
-       vertical-align: top;
-       margin-top: 25px;
-       margin-left: 10px;
-    }
-    #email
-    {
-        color: white;
-    }
+   
     
-    #phone
-    {
-        color: white;      
-    }
-    #main_picture
-    {
-        width: 100%;
-    }
+    margin-top: 40px;
+   }
+   .menu_li
+   {
+    display: inline;
+    font-size: 18pt;
+    border-right: 1px solid black;
+    padding-right: 5px;
+   }
+   #first_menu
+   {
+    margin-left: 3px;
+   }
+   #last_menu
+   {
+    border-right: none;
+   }
 }
