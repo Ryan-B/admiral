@@ -22,8 +22,8 @@
     color: darkblue;
     text-align: center;
     font-size: 18pt;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     text-shadow: 1px 1px dodgerblue;
    }
    #phone_img
@@ -56,7 +56,7 @@
     display: block;
     background-color: silver;
     padding: 0;
-    width: 612px;
+    width: 0px;
     margin: auto;
     margin-top: 0px;
     visibility: hidden;
