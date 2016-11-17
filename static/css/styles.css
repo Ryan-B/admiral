@@ -59,10 +59,8 @@
     padding: 0;
     width: 612px;
     margin: auto;
-    
-   
-    
-    margin-top: 40px;
+    margin-top: 0px;
+    visibility: hidden;
    }
    .menu_li
    {
@@ -142,10 +140,8 @@
     padding: 0;
     width: 612px;
     margin: auto;
-    
-   
-    
     margin-top: 40px;
+    visibility: visible;
    }
    .menu_li
    {
