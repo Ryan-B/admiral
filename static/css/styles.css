@@ -21,8 +21,9 @@
     font-family: "Inika", serif;
     color: darkblue;
     text-align: center;
-    font-size: 16pt;
+    font-size: 18pt;
     padding-top: 10px;
+    padding-bottom: 10px;
     text-shadow: 1px 1px dodgerblue;
    }
    #phone_img
@@ -102,6 +103,7 @@
     text-align: center;
     font-size: 40pt;
     padding-top: 40px;
+    padding-bottom: 0px;
     text-shadow: 2px 2px dodgerblue;
    }
    #phone_img
