@@ -28,7 +28,7 @@
    }
    #phone_img
    {
-    width: 5%; 
+    width: 8%; 
    }
    #header_ul
    {
@@ -37,7 +37,7 @@
    .header_li
    {
    display: inline;
-   font-size: 12pt;
+   font-size: 16pt;
    color: #2B4F81;
    text-shadow: 1px 1px black;
    font-family: 'Gurajada', serif;
@@ -48,7 +48,7 @@
    }
    #email_img
    {
-    width: 5%;
+    width: 8%;
    margin-left: 20px;
    }
    #menu_bar
