@@ -11,7 +11,7 @@
    #header
    {
      width: 100%;
-     height: 120px;
+     height: 100px;
      background-color: #528B8B;
      margin-top: 30px;
 
@@ -33,6 +33,7 @@
    #header_ul
    {
     visibility: hidden;
+    height: 0;
    }
    .header_li
    {
@@ -41,6 +42,7 @@
    color: #2B4F81;
    text-shadow: 1px 1px black;
    font-family: 'Gurajada', serif;
+   height: 0;
    }
    #lic_num
    {
@@ -56,7 +58,7 @@
     display: block;
     background-color: silver;
     padding: 0;
-    width: 0px;
+    height: 0px;
     margin: auto;
     margin-top: 0px;
     visibility: hidden;
@@ -67,14 +69,47 @@
     font-size: 18pt;
     border-right: 1px solid black;
     padding-right: 5px;
+    height: 0;
    }
    #first_menu
    {
     margin-left: 3px;
+    height: 0;
    }
    #last_menu
    {
     border-right: none;
+    height: 0;
+   }
+   #mobile_header_ul
+   {
+    visibility: visible;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 5px;
+   }
+   .mobile_header_li
+   {
+    color: white;
+    font-size: 13px;
+    display: inline;
+   
+   }
+   #mobile_phone_img
+   {
+    width: 4%;
+   }
+   #mobile_email_img
+   {
+    width: 4%;
+    margin-left: 10%;
+   }
+   #menu_stack
+   {
+    
+    width: 18.5%;
+    margin: auto;
+    margin-top: 10px;
    }
    
 
@@ -149,6 +184,7 @@
     font-size: 18pt;
     border-right: 1px solid black;
     padding-right: 5px;
+    visibility: visible;
    }
    #first_menu
    {
@@ -157,6 +193,14 @@
    #last_menu
    {
     border-right: none;
+   }
+   #mobile_header_ul
+   {
+    visibility: hidden;
+   }
+   #menu_stack
+   {
+    visibility: hidden;
    }
 
 @media screen and (min-width: 1024px){
@@ -220,10 +264,8 @@
     padding: 0;
     width: 612px;
     margin: auto;
-    
-   
-    
     margin-top: 40px;
+    height: 100%;
    }
    .menu_li
    {
