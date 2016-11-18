@@ -91,7 +91,7 @@
    .mobile_header_li
    {
     color: white;
-    font-size: 13px;
+    font-size: 12.5px;
     display: inline;
    
    }
@@ -102,7 +102,7 @@
    #mobile_email_img
    {
     width: 4%;
-    margin-left: 3%;
+    margin-left: 2%;
    }
    #menu_stack
    {
