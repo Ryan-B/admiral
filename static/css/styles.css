@@ -134,14 +134,15 @@
    #right_divs
    {
     visibility: hidden;
+    height: 0;
    }
    #statement_p
    {
     color: white;
-    width: 50%;
-    margin-left: 16%;
+    width: 80%;
+    margin: auto;
     font-family: arial;
-    font-size: 16pt;
+    font-size: 12pt;
    }
    
 
