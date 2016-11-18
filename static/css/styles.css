@@ -5,7 +5,7 @@
    }
    body{
     background-color: black;
-
+    height: 100%;
    }
 
    #header
@@ -130,6 +130,20 @@
    {
      
    }
+   
+   #right_divs
+   {
+    visibility: hidden;
+   }
+   #statement_p
+   {
+    color: white;
+    width: 50%;
+    margin-left: 16%;
+    font-family: arial;
+    font-size: 16pt;
+   }
+   
 
    
 
@@ -231,6 +245,7 @@
    #mobile_slide
    {
     visibility: hidden;
+    height: 0;
 
    }
 
@@ -264,8 +279,6 @@
    #phone_img
    {
     width: 2%;
-    
-    
    }
    #header_ul
    {
@@ -324,8 +337,8 @@
    }
    .menu_box:hover
    {
-    background-color: darkblue;
-    color: dodgerblue;
+    background-color: #528B8B;
+    color: darkblue;
    }
    #slideshow
    {
@@ -351,6 +364,7 @@
     vertical-align: top;
     display: inline-block;
     margin-left: 3%;
+    visibility: visible;
    }
    #latest_project_div
    {
