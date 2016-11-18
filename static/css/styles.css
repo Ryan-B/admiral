@@ -67,8 +67,6 @@
    {
     display: inline;
     font-size: 18pt;
-    border-right: 1px solid black;
-    padding-right: 5px;
     height: 0;
    }
    #first_menu
@@ -182,13 +180,16 @@
    {
     display: inline;
     font-size: 18pt;
-    border-right: 1px solid black;
-    padding-right: 5px;
     visibility: visible;
+   }
+   .menu_li:hover
+   {
+    background-color: black;
+    color: white;
    }
    #first_menu
    {
-    margin-left: 3px;
+    /*margin-left: 3px;*/
    }
    #last_menu
    {
@@ -262,24 +263,25 @@
     display: block;
     background-color: silver;
     padding: 0;
-    width: 612px;
+    width: 623px;
     margin: auto;
     margin-top: 40px;
     height: 100%;
+
    }
    .menu_li
    {
     display: inline;
     font-size: 18pt;
-    border-right: 1px solid black;
-    padding-right: 5px;
+    margin: 3px;
+    
    }
    #first_menu
    {
-    margin-left: 3px;
+    margin-left: 10px;
    }
    #last_menu
    {
-    border-right: none;
+    
    }
 }
