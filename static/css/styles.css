@@ -18,10 +18,10 @@
    }
    #title_h2
    {
-    font-family: "Inika", serif;
+    font-family: 'Black Ops One', cursive;
     color: darkblue;
     text-align: center;
-    font-size: 18pt;
+    font-size: 16pt;
     padding-top: 20px;
     padding-bottom: 0px;
     text-shadow: 1px 1px dodgerblue;
@@ -40,7 +40,7 @@
    display: inline;
    font-size: 16pt;
    color: #2B4F81;
-   text-shadow: 1px 1px black;
+   text-shadow: 1px 1px white;
    font-family: 'Gurajada', serif;
    height: 0;
    }
@@ -56,19 +56,13 @@
    #menu_bar
    {
     display: block;
-    background-color: silver;
     padding: 0;
     height: 0px;
     margin: auto;
     margin-top: 0px;
     visibility: hidden;
    }
-   .menu_li
-   {
-    display: inline;
-    font-size: 18pt;
-    height: 0;
-   }
+   
    #first_menu
    {
     margin-left: 3px;
@@ -122,20 +116,20 @@
 
    #header
    {
-     width: 700px;
+     width: 800px;
      height: 180px;
      background-color: #528B8B;
      margin: auto;
-     margin-top: 50px;
+     margin-top: 30px;
 
    }
    #title_h2
    {
-    font-family: "Inika", serif;
+    font-family: 'Black Ops One', cursive;
     color: darkblue;
     text-align: center;
     font-size: 40pt;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 0px;
     text-shadow: 2px 2px dodgerblue;
    }
@@ -169,9 +163,8 @@
    #menu_bar
    {
     display: block;
-    background-color: silver;
     padding: 0;
-    width: 612px;
+    width: 608px;
     margin: auto;
     margin-top: 40px;
     visibility: visible;
@@ -181,12 +174,9 @@
     display: inline;
     font-size: 18pt;
     visibility: visible;
+    font-family: arial;
    }
-   .menu_li:hover
-   {
-    background-color: black;
-    color: white;
-   }
+   
    #first_menu
    {
     /*margin-left: 3px;*/
@@ -215,20 +205,20 @@
 
    #header
    {
-     width: 700px;
-     height: 180px;
+     width: 800px;
+     height: 160px;
      background-color: #528B8B;
      margin: auto;
-     margin-top: 50px;
+     margin-top: 30px;
 
    }
    #title_h2
    {
-    font-family: "Inika", serif;
+    font-family: 'Black Ops One', cursive;
     color: darkblue;
     text-align: center;
-    font-size: 40pt;
-    padding-top: 40px;
+    font-size: 44pt;
+    padding-top: 20px;
     text-shadow: 2px 2px dodgerblue;
    }
    #phone_img
@@ -245,8 +235,8 @@
    {
    display: inline;
    font-size: 30pt;
-   color: #2B4F81;
-   text-shadow: 1px 1px black;
+   color: darkblue;
+   text-shadow: 1px 1px dodgerblue;
    font-family: 'Gurajada', serif;
    }
    #lic_num
@@ -256,14 +246,13 @@
    #email_img
    {
     width: 2%;
-   margin-left: 50px;
+   margin-left: 150px;
    }
    #menu_bar
    {
     display: block;
-    background-color: silver;
     padding: 0;
-    width: 623px;
+    width: 743px;
     margin: auto;
     margin-top: 40px;
     height: 100%;
@@ -272,16 +261,45 @@
    .menu_li
    {
     display: inline;
-    font-size: 18pt;
-    margin: 3px;
-    
+    font-size: 12pt;
+    margin: 0;
+    text-align: center;
+
    }
    #first_menu
    {
-    margin-left: 10px;
+    /*margin-left: 10px;*/
    }
    #last_menu
    {
     
+   }
+   .menu_box
+   {
+    width: 100px;
+    height: 24px;
+    display: inline-block;
+    background-color: silver;
+    padding-top: 6px; 
+   }
+   .menu_box:hover
+   {
+    background-color: darkblue;
+    color: dodgerblue;
+   }
+   #slideshow
+   {
+    width: 560px;
+    height: 420px;
+    border: 1px solid white;
+    margin-left: 320px;
+   }
+   #welcome_h1
+   {
+    color: white;
+    font-family: arial;
+    margin-left: 320px;
+    font-size: 20pt;
+    margin-bottom: 5px;
    }
 }
