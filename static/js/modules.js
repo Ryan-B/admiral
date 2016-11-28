@@ -7,11 +7,11 @@ app.config(function($routeProvider){
 		controllerAs: 'homeCtrl',
 		templateUrl: '/partials/frontpage.partial.html'
 	})
-	// .when('/frontpage', {
-	// 	controller: 'HomeController',
-	// 	controllerAs: 'homeCtrl',
-	// 	templateUrl: '/partials/frontpage.partial.html'
-	// })
+	.when('/menu', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/menu.partial.html'
+	})
 
 
 });
