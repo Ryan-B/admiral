@@ -131,7 +131,7 @@
    }
    #welcome_h1
    {
-    color: white;
+    color: lightgrey;
     font-family: arial;
     margin-left: 5px;
     font-size: 12pt;
@@ -140,7 +140,7 @@
    }
    #welcome_h1_2
    {
-    color: white;
+    color: lightgrey;
     font-family: arial;
     margin-left: 5px;
     font-size: 12pt;
@@ -161,7 +161,7 @@
    }
    #statement_p
    {
-    color: white;
+    color: lightgrey;
     width: 96%;
     margin: auto;
     font-family: arial;
@@ -210,7 +210,7 @@
    #bottom_strip_h3
    {
     text-align: center;
-    color: blue;
+    color: darkblue;
     font-family: "Special Elite";
     padding-top: 10px;
     font-size: 10pt;
@@ -335,7 +335,7 @@
    }
    #welcome_h1
    {
-    color: white;
+    color: lightgrey;
     font-family: arial;
     margin-left: 16%;
     font-size: 20pt;
@@ -345,6 +345,7 @@
     {
       visibility: hidden;
       height: 0;
+      margin-top: 0;
     }
    #right_divs
    {
@@ -413,7 +414,7 @@
    }
    #statement_p
    {
-    color: white;
+    color: lightgrey;
     width: 50%;
     margin-left: 16%;
     font-family: arial;
@@ -525,7 +526,7 @@
    }
    #welcome_h1
    {
-    color: white;
+    color: lightgrey;
     font-family: arial;
     margin-left: 16%;
     font-size: 20pt;
@@ -568,7 +569,7 @@
    }
    #statement_p
    {
-    color: white;
+    color: lightgrey;
     width: 50%;
     margin-left: 16%;
     font-family: arial;
@@ -581,13 +582,13 @@
     height: 50px;
     background-color: #528B8B;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
    }
    #bottom_strip_h3
    {
     text-align: center;
-    color: blue;
+    color: darkblue;
     font-family: "Special Elite";
     padding-top: 12px;
     font-size: 18pt;
