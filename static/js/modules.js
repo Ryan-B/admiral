@@ -17,6 +17,11 @@ app.config(function($routeProvider){
 		controllerAs: 'homeCtrl',
 		templateUrl: '/partials/admiral.partial.html'
 	})
+	.when('/services', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/services.partial.html'
+	})
 
 
 });
