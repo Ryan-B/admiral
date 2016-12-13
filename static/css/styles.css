@@ -64,6 +64,15 @@
     margin-top: 0px;
     visibility: hidden;
    }
+   .menu_box_p
+   {
+
+   font-family: arial;
+   color: white;
+    font-size: 20pt;
+    margin-left: 5px;
+    padding-top: 5px;
+   }
    
    #first_menu
    {
@@ -166,6 +175,23 @@
     font-family: arial;
     font-size: 12pt;
    }
+   #statement_p2
+   {
+    color: lightgrey;
+    width: 96%;
+    margin: auto;
+    font-family: arial;
+    font-size: 12pt;
+    margin-top: 50px;
+   }
+   #statement_p3
+   {
+    color: lightgrey;
+    width: 96%;
+    margin: auto;
+    font-family: arial;
+    font-size: 12pt;
+   }
    
    #bottom_strip
    {
@@ -196,6 +222,7 @@
    a
    {
     text-decoration: none;
+    color: white;
    }
    #bottom_strip
    {
