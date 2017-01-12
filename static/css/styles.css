@@ -175,6 +175,15 @@
     font-family: arial;
     font-size: 12pt;
    }
+   #request_p
+   {
+    color: lightgrey;
+    width: 96%;
+    margin: auto;
+    font-family: arial;
+    font-size: 12pt;
+    margin-top: 4%;
+   }
    #statement_p2
    {
     color: lightgrey;
@@ -201,7 +210,7 @@
    {
     width: 87%;
     height: 40px;
-    background-color: #528B8B;
+    background-color: #003F87;
     border-bottom: 1px solid silver;
     border-right: 1px solid silver;
     margin-left: 1px;
@@ -240,6 +249,67 @@
     font-family: "Special Elite";
     padding-top: 10px;
     font-size: 10pt;
+   }
+   #bidname
+   {
+    width: 40%;
+    font-size: 18pt;
+    margin-left: 5%;
+    margin-top: 1%;
+   }
+    #bidname_last
+   {
+    width: 40%;
+    font-size: 18pt;
+    margin-top: 1%;
+   }
+   #bid_email
+   {
+    width: 60.8%;
+    font-size: 18pt;
+    margin-left: 15%;
+    display: block;
+    margin-top: 1%;
+   }
+   #bid_phone
+   {
+    width: 60.8%;
+    font-size: 18pt;
+    margin-left: 15%;
+    display: block;
+    margin-top: 1%;
+   }
+   #bid_comment
+   {
+    width: 80%;
+    margin-top: 1%;
+    font-size: 18pt;
+    margin-left: 10%;
+    display: block;
+    height: 300px;
+   }
+   #button
+   {
+    font-size: 18pt;
+    display: block;
+    margin-left: 70%;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+   }
+   .photo_img_div
+   {
+    
+    width: 100%;
+    margin: auto;
+
+   }
+    .photo_img
+   {
+    
+    width: 100%;
+    border: 2px solid silver;
+  
    }
 
    
@@ -493,6 +563,15 @@
    text-shadow: 1px 1px blue;
    font-family: 'Special Elite', serif;
    }
+   .header_li2
+   {
+   display: inline;
+   font-size: 28pt;
+   color: #A2B5CD;
+   text-shadow: 1px 1px blue;
+   font-family: 'Special Elite', serif;
+    margin-left: 15%;
+   }
    #lic_num
    {
     margin: 10%;
@@ -611,6 +690,15 @@
     font-size: 16pt;
     margin-top: 10px;
    }
+   #request_p
+   {
+    color: lightgrey;
+    width: 80%;
+    margin-left: 15%;
+    font-family: arial;
+    font-size: 16pt;
+    margin-top: 2%;
+   }
    #statement_p2
    {
     color: lightgrey;
@@ -657,4 +745,72 @@
    {
     color: lightgrey;
    }
+   #bidname
+   {
+    width: 15%;
+    font-size: 18pt;
+    margin-left: 15%;
+    margin-top: 1%;
+   }
+    #bidname_last
+   {
+    width: 15%;
+    font-size: 18pt;
+    margin-top: 1%;
+   }
+   #bid_email
+   {
+    width: 30.8%;
+    font-size: 18pt;
+    margin-left: 15%;
+    display: block;
+    margin-top: 1%;
+   }
+   #bid_phone
+   {
+    width: 30.8%;
+    font-size: 18pt;
+    margin-left: 15%;
+    display: block;
+    margin-top: 1%;
+   }
+   #bid_comment
+   {
+    width: 60%;
+    margin-top: 1%;
+    font-size: 18pt;
+    margin-left: 15%;
+    display: block;
+    height: 300px;
+   }
+   #button
+   {
+    font-size: 18pt;
+    display: block;
+    margin-left: 70%;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+   }
+   .photo_img_div
+   {
+    /*border: 2px solid silver;*/
+    width: 50%;
+    margin: auto;
+
+   }
+   .photo_img
+   {
+    
+    width: 100%;
+  
+   }
+
+
+
+
+
+
+
+
 }
